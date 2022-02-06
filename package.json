@@ -1,0 +1,19 @@
+{
+  "name": "rehype-element-properties",
+  "version": "1.0.0",
+  "description": "Rehype plugin to replace element properties",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganta/rehype-element-properties.git"
+  },
+  "author": "Hideki Igarashi <hideki.develop@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ganta/rehype-element-properties/issues"
+  },
+  "homepage": "https://github.com/ganta/rehype-element-properties"
+}
