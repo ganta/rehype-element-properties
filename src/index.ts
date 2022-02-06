@@ -17,6 +17,8 @@
  * under the License.
  *
  */
-const rehypeElementProperties = () => {};
+const rehypeElementProperties = () => {
+  console.log("Hello, world!");
+};
 
 export default rehypeElementProperties;
