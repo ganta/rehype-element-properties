@@ -16,8 +16,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-const rehypeElementProperties = () => {
-  console.log("Hello, world!");
-};
+import rehypeElementProperties from "../index";
 
-export default rehypeElementProperties;
+describe(rehypeElementProperties, () => {
+  test.todo("Implement test");
+});
