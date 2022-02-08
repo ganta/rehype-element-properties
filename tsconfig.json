@@ -3,6 +3,7 @@
     "target": "ESNext",
     "module": "ESNext",
     "esModuleInterop": true,
+    "moduleResolution": "Node",
     "rootDir": "./src",
     "strict": true,
     "noEmit": true,
