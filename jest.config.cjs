@@ -5,7 +5,13 @@ module.exports = {
       tsconfig: "tsconfig.json",
     },
   },
-  preset: "ts-jest",
+  // TODO: If ts-jest supports ES modules, stop using ts-babel.
+  // https://kulshekhar.github.io/ts-jest/docs/next/guides/esm-support/
+  transform: {
+    "\\.jsx?$": "babel-jest",
+    "\\.tsx?$": "ts-jest",
+  },
+  transformIgnorePatterns: ["/node_modules/(?!unified)/.+\\.js"],
   clearMocks: true,
   verbose: true,
 };
