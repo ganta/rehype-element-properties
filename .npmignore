@@ -1,0 +1,13 @@
+.github/
+.idea/
+__tests__/
+.eslintignore
+.eslintrc.cjs
+.node-version
+.prettierignore
+.prettierrc.json
+babel.config.cjs
+jest.config.cjs
+renovate.json5
+tsconfig.json
+tsconfig.test.json
