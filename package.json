@@ -1,5 +1,5 @@
 {
-  "name": "rehype-element-properties",
+  "name": "@ganta/rehype-element-properties",
   "version": "1.0.0",
   "description": "Rehype plugin to replace element properties",
   "type": "module",
