@@ -28,6 +28,13 @@
     "url": "https://github.com/ganta/rehype-element-properties/issues"
   },
   "homepage": "https://github.com/ganta/rehype-element-properties",
+  "keywords": [
+    "unified",
+    "rehype",
+    "rehype-plugin",
+    "html",
+    "hast"
+  ],
   "dependencies": {
     "unist-util-visit": "~4.1.0"
   },
