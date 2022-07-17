@@ -105,4 +105,4 @@ If you want to remove a property, return `undefined`.
 
 ## License
 
-[Apache License 2.0](LICENSE)
+[Apache License 2.0](NOTICE)
