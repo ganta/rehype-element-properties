@@ -10,7 +10,7 @@ export type Setting = {
     name: string;
     replacer: (
       value: PropertyValue | undefined,
-      properties?: Properties
+      properties?: Properties,
     ) => PropertyValue;
   }>;
 };
